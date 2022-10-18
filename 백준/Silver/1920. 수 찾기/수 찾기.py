@@ -13,16 +13,16 @@ for i in range(m):
     start = 0
     end = n-1
     while start <= end:
-        midi = (start+end)//2
-        midv = arr[midi]
-        if midv > target:
-            end = midi - 1
-        elif midv < target:
-            start = midi + 1
+        mid_index = (start+end)//2
+        mid_target = arr[mid_index]
+        if mid_target > target:
+            end = mid_index-1
+        elif mid_target < target:
+            start = mid_index + 1
         else:
             find = True
-            break
+            break;
     if find:
-     print(1)
+        print(1)
     else:
-     print(0)
+        print(0)
