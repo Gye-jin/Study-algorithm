@@ -1,0 +1,3 @@
+
+
+print(ord(str(input())))
