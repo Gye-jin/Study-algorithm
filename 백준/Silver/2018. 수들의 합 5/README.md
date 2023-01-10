@@ -1,10 +1,10 @@
-# [Silver IV] 수들의 합 5 - 2018 
+# [Silver V] 수들의 합 5 - 2018 
 
 [문제 링크](https://www.acmicpc.net/problem/2018) 
 
 ### 성능 요약
 
-메모리: 30840 KB, 시간: 5168 ms
+메모리: 17704 KB, 시간: 264 ms
 
 ### 분류
 
