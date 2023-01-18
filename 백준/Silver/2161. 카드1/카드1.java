@@ -30,7 +30,6 @@ public class Main {
 		for (int i = 0; i < num; i++) {
 			bw.write(result[i] + " ");
 		}
-		bw.write("\n");
 		bw.flush();
 	}
 
