@@ -1,5 +1,5 @@
 class Solution {
-   public boolean isPrime(Long n) {
+    public boolean isPrime(Long n) {
 		 if (n == 1) {
 	            return false;
 	        }
@@ -11,26 +11,11 @@ class Solution {
 	        return true;
 		 
 	 }
-	 public String conversionN(int n, int k){
-	        StringBuilder sb = new StringBuilder();
-	        int current = n;
-	        
-	        while(current > 0){
-	            
-	            sb.append(current%k);
-	            
-	            current /= k;
-	        }
-	        
-	        return sb.reverse().toString();
-	        
-	    }
-	 
-	
+	 	
 		public int solution(int n, int k) {
 			int answer = 0;
 
-			String num = conversionN(n, k);
+			String num = Integer.toString(n, k);
 			String[] list = num.split("0");
 
 			for (int i=0;i<list.length;i++) {
@@ -46,4 +31,5 @@ class Solution {
 
 			return answer;
 		}
+	
 }
